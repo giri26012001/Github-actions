@@ -1,0 +1,10 @@
+name: git-hub_action
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: windows-latest
+    steps:
+      - name: Hello
+        run: Bat "Hello"
+      - name: Bye
+        run: Bat "Bye"
