@@ -5,6 +5,6 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Hello
-        run: Bat "Hello"
+        run: bat "Hello"
       - name: Bye
-        run: Bat "Bye"
+        run: bat "Bye"
